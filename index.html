@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO's LIST</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bgimg"></div>
+    <div class="container">
+        <div class="bgimg"></div>
+        <div class="newtasks">
+            <label for="task">Task Name</label>
+            <input type="text" name="type here" id="input1" placeholder="Enter your New Item" required>
+            <label for="task">Task Details</label>
+            <input name="task_detail" id="task_detail" placeholder="Enter details"></input>
+            <div class="priority_date">
+                <label for="priority">Priority</label>
+                <select name="priority_options" id="priority_options">
+                    <option class="option1 active" selected value="-Select-">Not Selected</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select> <br>
+                <label for="date">Due Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <button id="push">Add</button>
+        </div>
+
+        <div class="tasks">
+
+        </div>
+    </div>
+
+    <script src="app.js">
+
+    </script>
+</body>
+
+</html>
+
+
+input
